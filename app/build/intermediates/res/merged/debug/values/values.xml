@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/I:/workspace/BINGO/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="as">150dp</dimen>
+    <dimen name="ass">35dp</dimen>
+    <dimen name="b">10dp</dimen>
+    <dimen name="bbb">200dp</dimen>
+    <dimen name="bn">13dp</dimen>
+    <dimen name="c">4dp</dimen>
+    <dimen name="d">30dp</dimen>
+    <dimen name="ddff">25dp</dimen>
+    <dimen name="de">100dp</dimen>
+    <dimen name="df">100dp</dimen>
+    <dimen name="dfd">3dp</dimen>
+    <dimen name="dim">45dp</dimen>
+    <dimen name="din">45dp</dimen>
+    <dimen name="e">100dp</dimen>
+    <dimen name="ff">20dp</dimen>
+    <dimen name="fff">50dp</dimen>
+    <dimen name="ffff">22dp</dimen>
+    <dimen name="ffffddd">120dp</dimen>
+    <dimen name="fv">15mm</dimen>
+    <dimen name="gg">130dp</dimen>
+    <dimen name="gv">30sp</dimen>
+    <dimen name="hhh">133dp</dimen>
+    <dimen name="j">5dp</dimen>
+    <dimen name="jjh">30mm</dimen>
+    <dimen name="jn">30px</dimen>
+    <dimen name="juu">135dp</dimen>
+    <dimen name="n">50dp</dimen>
+    <dimen name="ne">130dp</dimen>
+    <dimen name="nes">70dp</dimen>
+    <dimen name="xcf">2dp</dimen>
+    <!-- From: file:/I:/workspace/BINGO/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">About us</string>
+    <string name="app_name">Tranquil Bingo</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bingoo..!.</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="his">His Turn</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="scanning">scanning for devices...</string>
+    <string name="scor">"&lt;&lt;SCORE >>"</string>
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="send">Send</string>
+    <string name="title_connected_to">connected: </string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">not connected</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="you">Your Turn</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcc"
+    android:gravity="top"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="@dimen/b"
+        android:text="Tranquil Studio"
+                   android:textColor="@android:color/holo_blue_dark"
+      
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:paddingLeft="@dimen/din"
+        android:paddingTop="@dimen/b"
+        android:text="Tranquil Studio is a software startups is formed by groupe of engineering students CEV2012-2016."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="by:  yoonus Deh"
+        android:textAppearance="?android:attr/textAppearanceSmallPopupMenu"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+</LinearLayout>

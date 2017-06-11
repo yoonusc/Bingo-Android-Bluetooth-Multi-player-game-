@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="I:\workspace\BINGO\app\src\main\assets"><file name="font/forever.TTF" path="I:\workspace\BINGO\app\src\main\assets\font\forever.TTF"/></source></dataSet><dataSet config="debug"><source path="I:\workspace\BINGO\app\src\debug\assets"/></dataSet></merger>

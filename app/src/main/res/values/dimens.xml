@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="xcf">2dp</dimen>
+    <dimen name="dfd">3dp</dimen>
+    <dimen name="c">4dp</dimen>
+    <dimen name="j">5dp</dimen>
+    <dimen name="b">10dp</dimen>
+    <dimen name="df">100dp</dimen>
+    <dimen name="n">50dp</dimen>
+    <dimen name="nes">70dp</dimen>
+    <dimen name="de">100dp</dimen>
+    <dimen name="d">30dp</dimen>
+    <dimen name="ddff">25dp</dimen>
+    <dimen name="ff">20dp</dimen>
+    <dimen name="ffff">22dp</dimen>
+    <dimen name="e">100dp</dimen>
+    <dimen name="ne">130dp</dimen>
+    <dimen name="as">150dp</dimen>
+    <dimen name="ass">35dp</dimen>
+    <dimen name="dim">45dp</dimen>
+    <dimen name="din">45dp</dimen>
+    <dimen name="fff">50dp</dimen>
+    <dimen name="gg">130dp</dimen>
+    <dimen name="ffffddd">120dp</dimen>
+    <dimen name="juu">135dp</dimen>
+    <dimen name="hhh">133dp</dimen>
+    <dimen name="bn">13dp</dimen>
+    <dimen name="jn">30px</dimen>
+    <dimen name="gv">30sp</dimen>
+    <dimen name="jjh">30mm</dimen>
+    <dimen name="fv">15mm</dimen>
+    <dimen name="bbb">200dp</dimen>
+</resources>
