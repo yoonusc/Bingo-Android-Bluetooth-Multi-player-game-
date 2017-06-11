@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bcc" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:layout_gravity="center" android:id="@id/TableRow03" android:paddingTop="125.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="30.0sp" android:textColor="@android:color/holo_blue_dark" android:id="@id/str" android:background="@drawable/ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Start Game" />
+    </TableRow>
+    <TableRow android:id="@id/TableRow01" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="30.0sp" android:textColor="@android:color/holo_orange_light" android:id="@id/abo" android:background="@drawable/ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="About" />
+    </TableRow>
+    <TableRow android:id="@id/TableRow02" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="30.0sp" android:textColor="@android:color/white" android:id="@id/qt" android:background="@drawable/ab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Quit" />
+    </TableRow>
+</LinearLayout>
