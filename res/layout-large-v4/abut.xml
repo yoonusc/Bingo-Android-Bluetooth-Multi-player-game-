@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="top" android:orientation="vertical" android:background="@drawable/bcc" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="50.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/textView1" android:paddingTop="@dimen/c" android:layout_width="wrap_content" android:layout_height="66.0dip" android:text="Tranquil Studio" />
-    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="30.0sp" android:textColor="@android:color/white" android:layout_gravity="center" android:id="@id/textView2" android:paddingLeft="@dimen/nes" android:paddingTop="@dimen/d" android:layout_width="fill_parent" android:layout_height="170.0dip" android:text="Tranquil Studio pvtLtd is software copmany started by yoonus is a developing company in android and embededsystem." android:textAlignment="center" />
-    <TextView android:textAppearance="?android:textAppearanceSmallPopupMenu" android:textSize="30.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="right" android:id="@id/textView3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="by:  yoonus Deh" />
-</LinearLayout>
