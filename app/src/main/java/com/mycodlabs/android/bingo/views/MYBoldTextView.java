@@ -1,4 +1,4 @@
-package mycodlabs.utils;
+package com.mycodlabs.android.bingo.views;
 
 
 import android.content.Context;

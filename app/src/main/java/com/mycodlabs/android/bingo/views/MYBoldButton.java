@@ -6,21 +6,21 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 
 
-public class MYBoldTextView extends android.support.v7.widget.AppCompatTextView {
+public class MYBoldButton extends android.support.v7.widget.AppCompatButton {
 
 
-    public MYBoldTextView(Context context, AttributeSet attrs, int defStyle) {
+    public MYBoldButton(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         init(attrs);
     }
 
-    public MYBoldTextView(Context context, AttributeSet attrs) {
+    public MYBoldButton(Context context, AttributeSet attrs) {
         super(context, attrs);
         init(attrs);
 
     }
 
-    public MYBoldTextView(Context context) {
+    public MYBoldButton(Context context) {
         super(context);
         init(null);
     }

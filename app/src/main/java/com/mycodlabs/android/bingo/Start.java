@@ -1,10 +1,11 @@
- package com.example.android.BluetoothChat;
+ package com.mycodlabs.android.bingo;
 
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -27,44 +28,38 @@ Button ba,ab,baa;
 		anmf=AnimationUtils.loadAnimation(this,R.animator.push_up_in);
 		
 
-	    Typeface j=Typeface.createFromAsset(getAssets(), "font/forever.TTF");
-	
+	    Typeface j=Typeface.createFromAsset(getAssets(), "font/monseratt_medium.ttf");
 		/*Intent ob=new Intent("com.example.android.START");
 		startActivity(ob);*/
 		
- ab=(Button)findViewById(R.id.abo); 
-		ab.setTypeface(j);
+ ab=(Button)findViewById(R.id.abo);
 		ab.setOnClickListener(this);
 		
 ba=(Button)findViewById(R.id.str);
-		ba.setTypeface(j);
 		ba.setOnClickListener(this);
 	
 	 baa=(Button)findViewById(R.id.qt);
-		baa.setTypeface(j);
-		
 		baa.setOnClickListener(this);
-		 final ProgressDialog pd= ProgressDialog.show(this, "Tranquil Bingo", "Loading......",true);
-	     pd.setIcon(R.drawable.app_icon);  
+		/// final ProgressDialog pd= ProgressDialog.show(this, "Bingo", "Loading.",true);
+	 //    pd.setIcon(R.drawable.app_icon);
 	 
-		 new Thread(new Runnable() {
-			
-			@Override
-			public void run() {
-				try
-				{
-					
-				 Thread.sleep(2500);
-				 pd.dismiss();
-				 
-				
-				}
-				catch(InterruptedException e){}
-			}
-		}).start();
+//		 new Thread(new Runnable() {
+//
+//			@Override
+//			public void run() {
+//				try
+//				{
+//
+//				}
+//				catch(InterruptedException e){}
+//			}
+//		}).start();
 		   ab.startAnimation(anmf);
+		   ab.setTypeface(j);
 			 ba.startAnimation(anmf);
+			 ba.setTypeface(j);
 			 baa.startAnimation(anmf);
+			 baa.setTypeface(j);
 	
 	}
 
@@ -74,38 +69,38 @@ ba=(Button)findViewById(R.id.str);
 		switch (ar.getId()) {
 	
 		case R.id.abo:
-			Dialog d = new Dialog(this);
-        	// Have the new window tint and blur the window it
-        	// obscures.
-        	Window window = d.getWindow();
-        	window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-        	WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        	d.setTitle("Tranqul Bingo");
-        	
-        d.setContentView(R.layout.abut);
-       
-        d.show();
-       
+
+			new MyDialog().showDialog(Start.this, "Bingo is famous backbencher's game, this game is developed from open source bluetooth chat application,source code is available in mycodlabs.com, to know more about us and  if " +
+							" you need contribute  please visit our website",
+					R.drawable.about, "Cancel", "Yes,Visit", new MyDialog.DailogCallback() {
+						@Override
+						public void onOkayClick() {
+							String url = "http://www.mycodlabs.com/";
+							Intent i = new Intent(Intent.ACTION_VIEW);
+							i.setData(Uri.parse(url));
+							startActivity(i);
+						}
+
+						@Override
+						public void onCancelClick() {
+
+
+						}
+					});
+
+
 			break;
 		case R.id.str:
-			
-			
 		Intent ob=new Intent("com.example.android.START");
 	
 	 startActivity(ob);		
 			break;
         case R.id.qt:
-        	
             Start.this.finish();
 			android.os.Process.killProcess(android.os.Process.myPid());
 			System.exit(0);
-			
-			
-			
 			break;
-		
-
-		default:
+			default:
 			break;
 		}
 		

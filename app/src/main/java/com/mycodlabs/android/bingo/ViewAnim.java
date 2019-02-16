@@ -1,4 +1,4 @@
-package com.example.android.BluetoothChat;
+package com.mycodlabs.android.bingo;
 
 
 import android.graphics.Matrix;

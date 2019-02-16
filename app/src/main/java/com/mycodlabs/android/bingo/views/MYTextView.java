@@ -1,15 +1,9 @@
-package mycodlabs.utils;
+package com.mycodlabs.android.bingo.views;
 
 
-import android.annotation.TargetApi;
 import android.content.Context;
-import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.os.Build;
 import android.util.AttributeSet;
-import android.widget.TextView;
-
-import mycodlabs.events.R;
 
 
 public class MYTextView extends android.support.v7.widget.AppCompatTextView {

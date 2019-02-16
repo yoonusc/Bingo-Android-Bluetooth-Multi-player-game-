@@ -2,11 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bbvv"
     android:gravity="top"
     android:orientation="vertical" >
 
-    <TextView
+    <com.mycodlabs.android.bingo.views.MYBoldTextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,19 +13,19 @@
         android:layout_weight="0.00"
         android:layout_marginTop="20dp"
         android:paddingTop="@dimen/b"
-        android:text="Tranquil Studio"
-        android:textColor="@android:color/white"
+        android:text="About Bingo"
+        android:textColor="@android:color/black"
         android:textSize="30sp" />
 
-    <TextView
+    <com.mycodlabs.android.bingo.views.MYBoldTextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="5dp"
-
-      android:layout_marginLeft="10dp"
-        android:text="Tranquil Studio is software startup formed by  a groupe of engineering  students from cev vadakara"
+        android:layout_marginLeft="10dp"
+        android:text="Bluetooth Multiplayer game, Develoed using opensource bluetooth chat application "
         android:textAlignment="center"
+        android:gravity="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="@android:color/black" />
 
